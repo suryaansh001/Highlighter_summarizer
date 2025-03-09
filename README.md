@@ -22,5 +22,3 @@ This Chrome extension searches the active webpage for a user-specified keyword, 
 - **Optional Summarization:**  
   Provides an optional "Summarize" button that sends the displayed text to an AI summarizer (via the ApyHub API) and shows a summary below the search results.
 
-## File Structure
-
