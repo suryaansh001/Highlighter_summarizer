@@ -30,8 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          // Replace with your actual API key (and adjust header if needed)
-          'apy-token': 'APY0dXyCOyKPxETftPwew8SJm9oqJt1OA7oh6UOE6E6d6XUosvqI4fP3LWImSltc30lar5i1bs4I'
+          'apy-token': 'API_KEY_GOES_HERI'
         },
         body: JSON.stringify({ text: textToSummarize })
       });
