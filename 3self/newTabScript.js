@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const options = {
       method: 'POST',
       headers: {
-        'apy-token': 'APY0OxhoQRemq5n2n2v8G21Aceb6QV6jK9f6Ouv',
+        'apy-token': 'API_KEY',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ text: textToSummarize })
     };
     
     try {
-      const response = await fetch('https://api.apyhub.com/ai/summarize-text', options);
+      const response = await fetch('API_URL', options);
       if (!response.ok) {
         summaryDiv.innerText = "Error in summarization: " + response.statusText;
         return;
